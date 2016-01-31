@@ -224,7 +224,7 @@ public class RegularPolygonMesh extends TriangleMesh{
      * @return Returns a negative number if p1 is to the left of a line intersecting p2 and
      * p3, positive if it is to the right of the line.
      */
-    public static double getSign(Point2D p1, Point2D p2, Point2D p3)
+    static double getSign(Point2D p1, Point2D p2, Point2D p3)
     {
         return (p1.getX() - p3.getX()) * (p2.getY() - p3.getY()) - (p2.getX() - p3.getX()) * (p1.getY() - p3.getY());
     }
@@ -238,7 +238,7 @@ public class RegularPolygonMesh extends TriangleMesh{
      * @return Returns true if the point pt is in the triangle, false if not or if the point
      * is on the edge of the triangle.
      */
-    public static boolean pointInTriangle(Point2D pt, Point2D v1, Point2D v2, Point2D v3)
+    static boolean pointInTriangle(Point2D pt, Point2D v1, Point2D v2, Point2D v3)
     {
         boolean b1, b2, b3;
 
