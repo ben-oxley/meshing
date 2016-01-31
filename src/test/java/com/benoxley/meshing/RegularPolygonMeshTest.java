@@ -7,10 +7,7 @@ import javafx.application.Platform;
 import javafx.embed.swing.JFXPanel;
 import javafx.geometry.Point2D;
 import javafx.geometry.Point3D;
-import javafx.scene.DepthTest;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.SubScene;
+import javafx.scene.*;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.CullFace;
@@ -86,21 +83,22 @@ public class RegularPolygonMeshTest {
         Semaphore semaphore = new Semaphore(1);
         semaphore.acquire();
         Platform.runLater(() -> {
-            //arrow
+            //Arrow
             Polygon polygon = new Polygon(0, 0, 100, 0, 100, 100, 50, 150, 0, 100);
-            //heart
-            //polygon = new Polygon(0, 0, 50, 50, 100, 50, 200, 0, 0, -200,-200,0,-100,50,-50,50);
-//            //Tetris piece
+            //Heart
+            polygon = new Polygon(0, 0, -50,50,-100,50,-200,0,0,-200,200,0,100,50,50,50);
+            //Complex polygon
             polygon = new Polygon(0,0,100,0,100,100,200,100,200,200,175,200,175,125,75,125,75,25,25,25,25,100,0,100);
-//            polygon = new Polygon(0,0,0,100,25,100,25,25,75,25,75,125,175,125,175,200,200,200,200,100,100,100,100,0);
+
             RegularPolygonMesh mesh = new RegularPolygonMesh(polygon, 100);
             MeshView meshView = new MeshView(mesh);
             meshView.setMaterial(new PhongMaterial(Color.RED));
             meshView.setCullFace(CullFace.BACK);
             meshView.setDepthTest(DepthTest.ENABLE);
-            meshView.setDrawMode(DrawMode.FILL);
+            meshView.setDrawMode(DrawMode.LINE);
 
             Group group = new Group();
+            SubScene subScene = new SubScene(group,500d,500d,true, SceneAntialiasing.BALANCED);
             group.setTranslateX(250);
             group.setTranslateY(250);
             //SubScene rootWindow = new SubScene(group,500,500);
