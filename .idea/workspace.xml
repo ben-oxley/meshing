@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce96610d-c918-441a-8c7c-6279f6a3a4a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_testfx_openjfx_monocle_1_8_0_20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meshing.iml" afterPath="$PROJECT_DIR$/meshing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" />
     </list>
     <ignored path="meshing.iws" />
@@ -46,10 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegularPolygonMesh.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegularPolygonMesh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6413302">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,14 +73,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegularPolygonMeshTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegularPolygonMeshTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.28503564">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +86,17 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-8.333333">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -260,7 +273,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2907700538000" />
+        <entry key="$PROJECT_DIR$" value="2908217299000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -360,6 +373,7 @@
         <option value="$PROJECT_DIR$/java/src/com/benoxley/meshing/RegularPolygonMesh.java" />
         <option value="$PROJECT_DIR$/src/main/java/meshing/RegularPolygonMesh.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" />
       </list>
     </option>
@@ -402,7 +416,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -512,11 +525,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -529,33 +545,7 @@
       <recent name="$PROJECT_DIR$/java/src/com/benoxley/meshing" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegularPolygonMeshTest.testShowRender">
-    <configuration default="false" name="RegularPolygonMeshTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.benoxley.meshing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="meshing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.benoxley.meshing" />
-      <option name="MAIN_CLASS_NAME" value="com.benoxley.meshing.RegularPolygonMeshTest" />
-      <option name="METHOD_NAME" value="testConstructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegularPolygonMeshTest">
     <configuration default="false" name="RegularPolygonMeshTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -608,32 +598,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RegularPolygonMeshTest.getSignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.benoxley.meshing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="meshing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.benoxley.meshing" />
-      <option name="MAIN_CLASS_NAME" value="com.benoxley.meshing.RegularPolygonMeshTest" />
-      <option name="METHOD_NAME" value="getSignTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="RegularPolygonMeshTest.pointInTriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -647,6 +611,43 @@
       <option name="PACKAGE_NAME" value="com.benoxley.meshing" />
       <option name="MAIN_CLASS_NAME" value="com.benoxley.meshing.RegularPolygonMeshTest" />
       <option name="METHOD_NAME" value="pointInTriangleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="meshing" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="RegularPolygonMeshTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.benoxley.meshing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="meshing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.benoxley.meshing" />
+      <option name="MAIN_CLASS_NAME" value="com.benoxley.meshing.RegularPolygonMeshTest" />
+      <option name="METHOD_NAME" value="testConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -762,6 +763,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -944,19 +954,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.com.benoxley.meshing in meshing" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testConstructor" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testShowRender" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.getSignTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.pointInTriangleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testShowRender" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.pointInTriangleTest" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testConstructor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testShowRender" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.pointInTriangleTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.getSignTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testConstructor" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testConstructor" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.testShowRender" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RegularPolygonMeshTest.pointInTriangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -974,34 +984,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 08m 05s.xml">
+    <history-entry file="RegularPolygonMeshTest - 2016.02.01 at 23h 04m 32s.xml">
+      <configuration name="RegularPolygonMeshTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest - 2016.02.01 at 23h 06m 50s.xml">
+      <configuration name="RegularPolygonMeshTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest - 2016.02.01 at 23h 07m 41s.xml">
+      <configuration name="RegularPolygonMeshTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest - 2016.02.01 at 23h 08m 03s.xml">
+      <configuration name="RegularPolygonMeshTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest_testConstructor - 2016.02.01 at 23h 07m 02s.xml">
+      <configuration name="RegularPolygonMeshTest.testConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest_testConstructor - 2016.02.01 at 23h 07m 30s.xml">
+      <configuration name="RegularPolygonMeshTest.testConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 23h 00m 14s.xml">
       <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 08m 29s.xml">
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 23h 00m 50s.xml">
       <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 08m 58s.xml">
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 23h 01m 09s.xml">
       <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 09m 20s.xml">
-      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 10m 36s.xml">
-      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 11m 01s.xml">
-      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 11m 23s.xml">
-      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 22h 24m 57s.xml">
-      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 22h 26m 08s.xml">
-      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 22h 27m 00s.xml">
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 23h 05m 36s.xml">
       <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1016,7 +1026,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1060,6 +1070,40 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/TriangleMesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1081,9 +1125,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1145,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1111,23 +1163,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.333333">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6413302">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.28503564">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

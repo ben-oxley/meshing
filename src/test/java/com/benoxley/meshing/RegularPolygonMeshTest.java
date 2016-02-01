@@ -16,6 +16,8 @@ import javafx.scene.shape.MeshView;
 import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -32,7 +34,7 @@ public class RegularPolygonMeshTest {
 
     @Test
     public void testConstructor() {
-        Polygon polygon = new Polygon(0, 0, 1, 1, 1, 0);
+        Polygon polygon = new Polygon(0, 0, 1, 0, 1, 1);
         RegularPolygonMesh mesh = new RegularPolygonMesh(polygon, 1);
         assertNotNull(mesh);
     }
@@ -98,9 +100,20 @@ public class RegularPolygonMeshTest {
         System.clearProperty("prism.order");
     }
 
-
-    public void testShowRender() throws InterruptedException {
+    @Before
+    public void setup(){
         //setHeadlessMode();
+    }
+
+    @After
+    public void teardown(){
+       // resetHeadlessMode();
+    }
+
+
+    @Test
+    public void testShowRender() throws InterruptedException {
+
         JFXPanel panel = new JFXPanel();
         Semaphore semaphore = new Semaphore(1);
         semaphore.acquire();
@@ -143,10 +156,11 @@ public class RegularPolygonMeshTest {
             });
             group.getChildren().setAll(meshView);
             transition.play();
-            stage.showAndWait();
+            stage.show();
             semaphore.release();
+            stage.close();
         });
         semaphore.acquire();
-        //resetHeadlessMode();
+
     }
 }
