@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce96610d-c918-441a-8c7c-6279f6a3a4a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java" afterPath="$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" />
     </list>
     <ignored path="meshing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegularPolygonMesh.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegularPolygonMesh.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.6413302">
               <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleMesh.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TriangleMesh.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/TriangleMesh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.023753">
+            <state vertical-scroll-proportion="0.0">
               <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
               <folding />
             </state>
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+              <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -359,8 +359,8 @@
         <option value="$PROJECT_DIR$/java/src/com/benoxley/meshing/com.benoxley.meshing.RegularPolygonMesh" />
         <option value="$PROJECT_DIR$/java/src/com/benoxley/meshing/RegularPolygonMesh.java" />
         <option value="$PROJECT_DIR$/src/main/java/meshing/RegularPolygonMesh.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java" />
       </list>
     </option>
   </component>
@@ -403,8 +403,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -513,6 +511,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -974,15 +974,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegularPolygonMeshTest - 2016.01.31 at 19h 07m 00s.xml">
-      <configuration name="RegularPolygonMeshTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_pointInTriangleTest - 2016.01.31 at 16h 09m 37s.xml">
-      <configuration name="RegularPolygonMeshTest.pointInTriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegularPolygonMeshTest_pointInTriangleTest - 2016.01.31 at 16h 10m 00s.xml">
-      <configuration name="RegularPolygonMeshTest.pointInTriangleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 08m 05s.xml">
       <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
     </history-entry>
@@ -1004,10 +995,19 @@
     <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.01.31 at 19h 11m 23s.xml">
       <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 22h 24m 57s.xml">
+      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 22h 26m 08s.xml">
+      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegularPolygonMeshTest_testShowRender - 2016.02.01 at 22h 27m 00s.xml">
+      <configuration name="RegularPolygonMeshTest.testShowRender" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="27" width="1256" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1016,7 +1016,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1060,6 +1060,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1085,6 +1095,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/TriangleMesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1096,7 +1114,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/benoxley/meshing/RegularPolygonMeshTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,19 +1123,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/benoxley/meshing/RegularPolygonMesh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6413302">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/javafx-src.zip!/javafx/scene/shape/TriangleMesh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.023753">
-          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>

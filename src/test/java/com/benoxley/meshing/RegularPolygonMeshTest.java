@@ -18,6 +18,8 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.Semaphore;
 
 import static org.junit.Assert.*;
@@ -76,9 +78,29 @@ public class RegularPolygonMeshTest {
         }
 
     }
+    Map<String,String> properties = new HashMap<>();
+    private void setHeadlessMode(){
+        String glassPlatform = System.getProperty("glass.platform");
+        String monoclePlatform = System.getProperty("monocle.platform");
+        String prismOrder = System.getProperty("prism.order");
+        System.out.println(glassPlatform+" "+monoclePlatform+" "+prismOrder);
+        if (properties.containsKey("glass.platform")) properties.put("glass.platform",glassPlatform);
+        if (properties.containsKey("monocle.platform")) properties.put("monocle.platform",monoclePlatform);
+        if (properties.containsKey("prism.order")) properties.put("prism.order",prismOrder);
+        System.setProperty("glass.platform","Monocle");
+        System.setProperty("monocle.platform","Headless");
+        System.setProperty("prism.order","sw");
+    }
 
-    @Test
+    private void resetHeadlessMode(){
+        System.clearProperty("glass.platform");
+        System.clearProperty("monocle.platform");
+        System.clearProperty("prism.order");
+    }
+
+
     public void testShowRender() throws InterruptedException {
+        //setHeadlessMode();
         JFXPanel panel = new JFXPanel();
         Semaphore semaphore = new Semaphore(1);
         semaphore.acquire();
@@ -125,5 +147,6 @@ public class RegularPolygonMeshTest {
             semaphore.release();
         });
         semaphore.acquire();
+        //resetHeadlessMode();
     }
 }
